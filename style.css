@@ -1,0 +1,51 @@
+#canv {
+    background-color: black;
+    border: 1px solid white;
+}
+
+canvas.relative {
+    position: relative;
+}
+
+input.absolute {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+}
+
+input#one {
+    top: 30px;
+    left: 30px;
+}
+input#two {
+    top: 30px;
+    left: 231px;
+}
+input#thr {
+    top: 30px;
+    left: 432px;
+}
+input#fou {
+    top: 231px;
+    left: 30px;
+}
+input#fiv {
+    top: 231px;
+    left: 231px;
+}
+input#six {
+    top: 231px;
+    left: 432px;
+}
+input#sev {
+    top: 432px;
+    left: 30px;
+}
+input#eig {
+    top: 432px;
+    left: 231px;
+}
+input#nin {
+    top: 432px;
+    left: 432px;
+}

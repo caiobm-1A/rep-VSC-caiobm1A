@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <body style="background-color:black">
-    <p style="color:white">Hello world!</p>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body style="background-color:black; color:white">
+    <div>
+      <canvas class="relative" id="canv" width="600" height="600">
+      </canvas>
+
+      <input id="one" class="absolute" type="image" onclick="clicked(1,'one')" src="empty.png">
+      <input id="two" class="absolute" type="image" onclick="clicked(2,'two')" src="empty.png">
+      <input id="thr" class="absolute" type="image" onclick="clicked(3,'thr')" src="empty.png">
+      <input id="fou" class="absolute" type="image" onclick="clicked(4,'fou')" src="empty.png">
+      <input id="fiv" class="absolute" type="image" onclick="clicked(5,'fiv')" src="empty.png">
+      <input id="six" class="absolute" type="image" onclick="clicked(6,'six')" src="empty.png">
+      <input id="sev" class="absolute" type="image" onclick="clicked(7,'sev')" src="empty.png">
+      <input id="eig" class="absolute" type="image" onclick="clicked(8,'eig')" src="empty.png">
+      <input id="nin" class="absolute" type="image" onclick="clicked(9,'nin')" src="empty.png">
+    </div>
+
+    <span id="num"></span>
+    <h3 id="winner"></h3>
+
+    <script src="script.js"></script>
   </body>
 </html>
