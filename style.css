@@ -1,6 +1,5 @@
 #canv {
-    background-color: black;
-    border: 1px solid white;
+    background-color: rgb(215, 215, 215);
 }
 
 canvas.relative {
