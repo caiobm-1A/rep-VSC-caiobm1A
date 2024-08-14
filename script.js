@@ -3,7 +3,7 @@ var names = ["one", "two", "thr", "fou", "fiv", "six", "sev", "eig", "nin"];
 
 var c = document.getElementById("canv");
 var ctx = c.getContext("2d");
-ctx.strokeStyle = "white";
+ctx.strokeStyle = "black";
 createLines();
 
 function createLines() {
