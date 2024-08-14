@@ -57,7 +57,7 @@ input#nin {
     left: 432px;
 }
 
-h3.winner {
+h3#winner {
     font-size: 30px;
     margin: 30px;
 }
